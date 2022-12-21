@@ -1,0 +1,11 @@
+streamlit==1.6.0
+hydralit_components
+Pillow
+pandas
+numpy
+statsmodels
+missingno
+matplotlib
+seaborn==0.11.1
+scipy
+plotly
