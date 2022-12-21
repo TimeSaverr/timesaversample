@@ -23,7 +23,7 @@ with upload1:
     
     ttl = f'<p style="font-family:cursive; font-size: 30px;">TimeSaver!</p>'
     st.markdown(f"**<h1 style='text-align: center; '>{ttl}</h1>**", unsafe_allow_html=True)
-    st.markdown("**TimeSaver is a Semi-Automated Exploratory Data Analysis Web App which can save lot of time and efforts from writting code for basic visualizations and statistical analysis. It helps in finding meaningful insights by doing preliminary analysis.‎ ‎ ‎ ‎ ‎(‎ ‎Made By [RAVINDER](https://www.linkedin.com/in/ravinder-j-37849b244/)‎ ‎)‎ ‎ ‎ ‎ ‎[Email](mailto:timesaver.ds@gmail.com)**")
+    st.markdown("**TimeSaver is a Semi-Automated Exploratory Data Analysis Web App which can save lot of time and efforts from writting code for basic visualizations and statistical analysis. It helps in finding meaningful insights by doing preliminary analysis.‎ ‎ ‎ ‎ ‎(‎ ‎Made By [RAVINDER]‎ ‎)‎ ‎ ‎ ‎ ‎[Email](mailto:timesaver.ds@gmail.com)**")
     
 with upload2:
     data = st.file_uploader("Upload Clean Dataset", type=["csv"])
